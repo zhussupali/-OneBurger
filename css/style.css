@@ -1,0 +1,161 @@
+body {
+/*  background-color: #333333;*/
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.headerlogo {
+      display: flex;
+}
+
+.headerlogotext {
+    
+    color: DarkOrange;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 23px;
+}
+
+.headeraddress {
+    
+}
+
+.headerphonenumbertext {
+    text-align: right;
+    color: DarkOrange;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 23px;
+}
+
+.headerphonenumber {
+    text-align: right;
+    color: grey;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.menubar {
+    align-items: center;
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menuitem {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.slick-slide img {
+    height: 80vh;
+}
+
+
+.block {
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+/*    background-color: lightblue;*/
+    margin: auto;
+}
+
+.blocktitle {
+    padding-left: 120px;
+    color: grey;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h4 {
+    color: DarkOrange
+}
+
+h6 {
+    color: grey
+}
+
+.cell {
+    
+    height: flex;
+    width: 220px;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+    border-radius: 25px;
+      border: 2px solid DarkOrange;
+      padding: 8px;
+      margin-bottom : 30px;
+      
+}
+
+
+.priceandorder {
+    color: DarkOrange;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: DarkOrange; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: grey; /* Add a dark-grey background on hover */
+}
+
+
+.blockinfo {
+    background-color: DarkOrange;
+    height: flex;
+    width: 100%;
+}
+
+
+.blockinfo .texttitle {
+    color: white;
+    font-size: 25px;
+    font-style: bolder;
+}
+
+.blockinfo .text {
+    color: white;
+    font-size: 18px;
+    font-style: thin;
+}
