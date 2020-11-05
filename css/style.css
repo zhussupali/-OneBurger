@@ -22,7 +22,6 @@ html {
 
 .headerlogo {
       display: flex;
-      
 }
 
 .headerlogotext {
@@ -82,8 +81,6 @@ html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-/*    background-color: lightblue;*/
     margin: auto;
 }
 
@@ -180,14 +177,30 @@ h6 {
     font-style: thin;
 }
 
+.flex  {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
 input[type=text], select {
-  width: 50%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .box {
