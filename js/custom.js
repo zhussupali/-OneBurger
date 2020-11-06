@@ -1,7 +1,7 @@
 $(function() {
     $('.slider-img').slick({
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2500,
     });
     
 });
