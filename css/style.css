@@ -4,9 +4,32 @@ font-family: 'Montserrat';
 color: #303030;
 background:url('./../images/background.png');
 background-size: 1200px 300px;
-
+overflow: scroll;
 }
 
+.popup {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    height: 80%;
+    width: 90%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
 
 a {
     color: #303030;

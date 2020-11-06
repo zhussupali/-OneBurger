@@ -30,3 +30,14 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+document.getElementById("cart").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "flex";
+    document.querySelector("body").style.overflow = "hidden";
+})
+
+document.getElementById("close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+    document.querySelector("body").style.overflow = "scroll";
+})
