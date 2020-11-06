@@ -2,6 +2,7 @@ $(function() {
     $('.slider-img').slick({
         autoplay: true,
         autoplaySpeed: 2500,
+        arrows: false,
     });
     
 });
