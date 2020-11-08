@@ -49,7 +49,7 @@
                 <div class = "menuitem"><a href = "#sectionPizza">#Pizza</a></div>
                 <div class = "menuitem"><a href = "#sectionHotdog">#Hot-dog</a></div>
                 <div class = "menuitem"><a href = "#sectionContacts">#Contacts</a></div>
-                <div class = "menuitem"><div class = "cart"><img class = "cart" id = "cart" src = "images/cart.png" alt = "" height = "30"><span>0</span></div></div>
+                <div class = "menuitem"><div class = "cart"><img class = "cart" id = "cart" src = "images/cart.png" alt = "" height = "30"><span class = "cartCounter">0</span></div></div>
             </div>
             
             
@@ -64,14 +64,28 @@
             <div class = "popup">
                 <div class = "popup-content">
                     <img class = "close" id = "close" src = "images/close.png" alt = "" width = "20">
-                    </div>
+                        
+                        <div class = "products-container">
+                            
+                            <div class = "product-header">
+                                <h5 class = "header-product-title">Product</h5>
+                                <h5 class = "header-price">Price</h5>
+                                <h5 class = "header-quantity">Quantity</h5>
+                                <h5 class = "header-total">Total</h5>
+                                
+                            </div>
+                            <div class = "products">
+                                
+                            </div>
+                        </div>
+                        </div>
             </div>
             
             <div class = "blocktitle" id = "sectionCombo">#Combo</div>
             <div class = "block">
                 
                 
-                <div class = "cell"><img src = "images/combo1.jpeg" alt = "1" width = "214" height = "150">
+                <div class = "cell"><img src = "images/combo1.jpg" alt = "1" width = "214" height = "150">
                     <h4>Combo #1</h4></p><h6>Burger, coca-cola and country fries</h6></p><div class = "priceandorder">5.99$<a class= "add-cart cart1" href="#"><button class = "btn btn-outline-dark" >Add to cart</button></a></div></div>
                 
                 
@@ -80,7 +94,7 @@
             
             <div class = "blocktitle" id = "sectionBurger">#Burger</div>
             <div class = "block">
-                <div class = "cell"><img src = "images/burger.jpg" alt = "1" width = "214" height = "150">
+                <div class = "cell"><img src = "images/burger1.jpg" alt = "1" width = "214" height = "150">
                     <h4>#CrabbyPatty</h4></p><h6>buns just out of the oven, lettuce, juicy beef, melted cheese, fresh tomato with onions</h6></p><div class = "priceandorder">3.99$<a class= "add-cart cart2" href="#"><button class = "btn btn-outline-dark" >Add to cart</button></a></div></div>
                 
                 
@@ -88,7 +102,7 @@
             
             <div class = "blocktitle" id = "sectionPizza">#Pizza</div>
             <div class = "block">
-                <div class = "cell"><img src = "images/pizza.jpg" alt = "1" width = "214" height = "150">
+                <div class = "cell"><img src = "images/pizza1.jpg" alt = "1" width = "214" height = "150">
                     <h4>#Margarita</h4></p><h6>Classic pizza with a lot of cheese, tomato, parmezan and species</h6></p><div class = "priceandorder">4.45$<a class= "add-cart cart3" href="#"><button class = "btn btn-outline-dark" >Add to cart</button></a></div></div>
                 
                 
@@ -96,7 +110,7 @@
             
             <div class = "blocktitle" id = "sectionHotdog">#Hot-dog</div>
             <div class = "block">
-                <div class = "cell"><img src = "images/hotdog.jpg" alt = "1" width = "214" height = "150" >
+                <div class = "cell"><img src = "images/hotdog1.jpg" alt = "1" width = "214" height = "150" >
                     <h4>#Mexican</h4></p><h6>Burger, coca-cola and country fries</h6></p><div class = "priceandorder">2.59$<a class= "add-cart cart4" href="#"><button class = "btn btn-outline-dark" >Add to cart</button></a></div></div>
                 
             </div>
@@ -113,13 +127,13 @@
                     <div>
                         
                         <div class = "contacts">
-                        <div><a href = "https://www.google.com/maps?ll=43.207742,76.669054&z=15&t=m&hl=en&gl=KZ&mapclient=embed&cid=8898291179573002326" alt = ""><img src = "images/location.png" alt = "" width = "20">    Almaty, Kaskelen, Abylay khan st. 1.</a></div>
+                            <div><a href = "https://www.google.com/maps?ll=43.207742,76.669054&z=15&t=m&hl=en&gl=KZ&mapclient=embed&cid=8898291179573002326" alt = ""><img src = "images/location.png" alt = "" width = "20">    Almaty, Kaskelen, Abylay khan st. 1.</a></div>
                             <div><img src = "images/wapp.png" alt = "" width = "20">    +7 (707) 707-70-07 (Kaspi)</div>
-                                <div><a href = "https://www.instagram.com/zhussupali" alt = ""><img src = "images/insta.png" alt = "" width = "20">   @zhussupali</a></div>
-                                </div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.083317109452!2d76.66686015116338!3d43.20774177903675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2sSDU!5e0!3m2!1sen!2skz!4v1604065614656!5m2!1sen!2skz" width="550" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                    
-                                    </div>
+                            <div><a href = "https://www.instagram.com/zhussupali" alt = ""><img src = "images/insta.png" alt = "" width = "20">   @zhussupali</a></div>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.083317109452!2d76.66686015116338!3d43.20774177903675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2sSDU!5e0!3m2!1sen!2skz!4v1604065614656!5m2!1sen!2skz" width="550" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        
+                    </div>
                     
                     <div class = "box">
                         <h1>CONTACT US</h1>
@@ -147,14 +161,16 @@
                 <br>
                 <div class = "box">©SDUKZ Technopark inc., 2020.<div>
                     <br>
-                
-                
-                
-                <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-                <script src = "js/slick.js"></script>
-                <script src = "js/custom.js"></script>
-                
-                
-                </body>
+                    
+                    
+                    
+                    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                    <script src = "js/slick.js"></script>
+                    <script src = "js/custom.js"></script>
+                    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+                    
+                    
+                    </body>
     </html>
