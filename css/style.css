@@ -327,7 +327,7 @@ h6 {
 
 .blockinfo {
     background-color: WhiteSmoke;
-    height: flex;
+    
     width: 100%;
 }
 
@@ -382,7 +382,44 @@ textarea {
     
 }
 
+.nav {
+    float: left;
+}
 
-@media (max-width: 700px; ) {
-    background-color: .darkcyan;
+label {
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    label {
+        display:block;
+        cursor: pointer;
+        
+    }
+    
+    .menubar {
+        padding-top: 60px;
+        display:block;
+        text-align:center;
+    }
+    .menuitem {
+        border-top: 1px solid #303030;
+        padding: 30px;
+        font-size: 30px;
+    }
+    
+    .cartCounter {
+        height: 45px;
+          width: 45px;
+    }
+    
+    #toggle:checked + .menubar {
+        display: none;
+    }
 }
