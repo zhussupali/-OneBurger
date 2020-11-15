@@ -242,10 +242,6 @@ html {
 
 .block {
     width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -384,6 +380,8 @@ textarea {
 
 .nav {
     float: left;
+    width: 100%;
+    background-color: WhiteSmoke;
 }
 
 label {
@@ -412,6 +410,10 @@ label {
         border-top: 1px solid #303030;
         padding: 30px;
         font-size: 30px;
+    }
+    
+    .slider-area {
+        margin-top: 84px;
     }
     
     .cartCounter {
