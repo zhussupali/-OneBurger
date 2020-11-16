@@ -150,7 +150,9 @@ overflow: scroll;
 }
 
 
-
+.cart {
+    
+}
 
 .cart:hover {
     cursor: pointer;
@@ -217,6 +219,10 @@ html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.c {
+    color: whitesmoke;
 }
 
 .menuitem {
@@ -343,6 +349,10 @@ h6 {
 .contacts {
     line-height: 40px;
     padding-bottom: 20px;
+}
+
+.loaction {
+    width: 50%;
 }
 
 .flex  {
