@@ -50,23 +50,168 @@ let products = [
     inCart: 0
 },
 {
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
+    name: "combo1",
+    tag: "combo1",
+    price: 5.99,
+    inCart: 0
+},
+{
 name: "burger1",
 tag: "burger1",
 price: 3.99,
 inCart: 0
 },
+{
+    name: "burger1",
+    tag: "burger1",
+    price: 3.99,
+    inCart: 0
+    },
+    {
+        name: "burger1",
+        tag: "burger1",
+        price: 3.99,
+        inCart: 0
+        },
+        {
+            name: "burger1",
+            tag: "burger1",
+            price: 3.99,
+            inCart: 0
+            },
+            {
+                name: "burger1",
+                tag: "burger1",
+                price: 3.99,
+                inCart: 0
+                },
+                {
+                    name: "burger1",
+                    tag: "burger1",
+                    price: 3.99,
+                    inCart: 0
+                    },
+                    {
+                        name: "burger1",
+                        tag: "burger1",
+                        price: 3.99,
+                        inCart: 0
+                        },
+                        {
+                            name: "burger1",
+                            tag: "burger1",
+                            price: 3.99,
+                            inCart: 0
+                            },
                 {
     name: "pizza1",
     tag: "pizza1",
     price: 4.45,
     inCart: 0
 },
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+{
+    name: "pizza1",
+    tag: "pizza1",
+    price: 4.45,
+    inCart: 0
+},
+
                 {
     name: "hotdog1",
     tag: "hotdog1",
     price: 2.59,
     inCart: 0
-}
+},
+{
+    name: "hotdog1",
+    tag: "hotdog1",
+    price: 2.59,
+    inCart: 0
+},
+{
+    name: "hotdog1",
+    tag: "hotdog1",
+    price: 2.59,
+    inCart: 0
+},
+{
+    name: "hotdog1",
+    tag: "hotdog1",
+    price: 2.59,
+    inCart: 0
+},
                 ]
 
 let carts = document.querySelectorAll('.add-cart');
